@@ -46,9 +46,9 @@
     {
       "company": "Università degli Studi di Bergamo",
       "position": "Researcher",
-      "website": "http://unibg.it",
+      "website": "http://www.unibg.it",
       "startDate": "2014-05-01",
-      "summary": "[UniBG Seclab](http://unibg-seclab.github.com) is the Computer Security group at the University of Bergamo. Their research interests include cloud, mobile and systems security, with particular focus on policies and access control.",
+      "summary": "UniBG Seclab is the Computer Security group at the University of Bergamo. Their research interests include cloud, mobile and systems security, with particular focus on policies and access control.",
       "highlights": [
         "Co-principal investigator of a Google Research Award - Winter 2016",
         "Participation in the SeSQLite project (Google Research Award - Winter 2014)",
@@ -72,7 +72,7 @@
     {
       "company": "Università degli Studi di Bergamo",
       "position": "Teaching Assistant",
-      "website": "http://unibg.it",
+      "website": "http://www.unibg.it",
       "startDate": "2014-09-01",
       "endDate": "2014-12-31",
       "summary": "Teaching assistant for the bachelor course Databases II",
