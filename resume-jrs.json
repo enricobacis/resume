@@ -13,6 +13,23 @@
       "city": "Osio Sopra",
       "countryCode": "IT",
       "region": "Bergamo"
-    }
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "enricobacis",
+        "url": "https://github.com/enricobacis"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "enricobacis",
+        "url": "http://stackoverflow.com/users/1003123"
+      },
+      {
+        "network": "Twitter",
+        "username": "enricobacis",
+        "url": "https://twitter.com/enricobacis"
+      }
+    ]
   }
 }
