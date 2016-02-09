@@ -121,6 +121,14 @@
       "endDate": "2008-06-30"
     }
   ],
+  "awards": [
+    {
+      "title": "New graduate of the year",
+      "date": "2014",
+      "awarder": "LUBERG - University of Bergamo Alumni Association",
+      "summary": "LUBERG new graduate of the year award rewards talent, determination and commitment of graduates who stand out for a particularly brilliant academic record, the results achieved in the degree course, the originality and the scientific rigor of the thesis."
+    }
+  ],
   "publications": [
     {
       "name": "Extending Mandatory Access Control Policies in Android",
