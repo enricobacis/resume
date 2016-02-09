@@ -31,5 +31,80 @@
         "url": "https://twitter.com/enricobacis"
       }
     ]
-  }
+  },
+  "education": [
+    {
+      "institution": "Università degli Studi di Bergamo",
+      "area": "Computer Engineering",
+      "studyType": "Master of Science (MSc)",
+      "startDate": "2011-12-01",
+      "endDate": "2014-04-30",
+      "gpa": "4.0/4.0",
+      "courses": [
+        "Business Information Management",
+        "Business Management",
+        "Compilers and Programming Languages",
+        "Computer Engineering 3",
+        "Control Systems",
+        "IT Systems",
+        "Information Theory",
+        "Integrated Logistics Systems",
+        "Model Identification and Data Analysis",
+        "Optimization Models and Algorithms",
+        "Systems Security",
+        "Theoretical Computer Science"
+      ]
+    },
+    {
+      "institution": "Syddansk Universitet",
+      "area": "Software Engineering",
+      "studyType": "Exchange Program",
+      "startDate": "2012-01-01",
+      "endDate": "2012-06-30",
+      "courses": [
+          "XI-AAP - Android Programming",
+          "XI-CNE - Computer Networks",
+          "XI-DSA - Distributed Systems and Applications",
+          "XI-GD - Game Design",
+          "XI-OOP2 - Object Oriented Programming 2",
+          "XR-EMP - Embedded Programming"
+      ]
+    },
+    {
+      "institution": "Università degli Studi di Bergamo",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science (BSc)",
+      "startDate": "2008-09-01",
+      "endDate": "2011-12-16",
+      "gpa": "105/110",
+      "courses": [
+          "Algebra and Logic",
+          "Calculus I + II",
+          "Chemistry",
+          "Computer Engineering I + II",
+          "Computer Graphics",
+          "Databases II",
+          "Databases and Web",
+          "Economics and Business",
+          "Electrical Engineering",
+          "Foundations of Computer Networks",
+          "Foundations of Control Systems",
+          "Foundations of Electronics",
+          "Management Control Systems",
+          "Multimedia Networks",
+          "Physics",
+          "Real Time Systems",
+          "Software Engineering",
+          "Statistics and Stochastic Models",
+          "Telecommunication Networks"
+      ]
+    },
+    {
+      "institution": "Liceo Scientifico L. Einaudi",
+      "area": "Scientific High School",
+      "studyType": "High School",
+      "startDate": "2003-09-01",
+      "endDate": "2008-06-30"
+    }
+  ]
 }
