@@ -173,6 +173,71 @@
       "summary": "Android SELinux extension to protect app resources from malware."
     }
   ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Java",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "Ubuntu",
+        "Fedora",
+        "Arch Linux"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "Intermediate",
+      "keywords": [
+        "Cryptography",
+        "SELinux",
+        "CTFs"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "level": "Intermediate",
+      "keywords": [
+        "Project Management",
+        "Version Control",
+        "Databases"
+      ]
+    },
+    {
+      "name": "Research",
+      "level": "Intermediate",
+      "keywords": [
+        "LaTeX",
+        "Networking",
+        "Public Speaking"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Beginner",
+      "keywords": [
+        "Jenkins",
+        "Puppet",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Beginner",
+      "keywords": [
+        "Jekyll",
+        "Bootstrap",
+        "Django"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "Italian",
