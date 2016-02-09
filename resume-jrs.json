@@ -120,5 +120,49 @@
       "startDate": "2003-09-01",
       "endDate": "2008-06-30"
     }
+  ],
+  "publications": [
+    {
+      "name": "Extending Mandatory Access Control Policies in Android",
+      "publisher": "ICISS'15",
+      "releaseDate": "2015-12",
+      "website": "",
+      "summary": "Discussion on how to widen the role of SELinux in Android."
+    },
+    {
+      "name": "SeSQLite: Security Enhanced SQLite",
+      "publisher": "ACSAC'15",
+      "releaseDate": "2015-12",
+      "website": "",
+      "summary": "SQLite extension to integrated fine-grained SELinux controls in SQLite."
+    },
+    {
+      "name": "Policy Specialization to Support Domain Isolation",
+      "publisher": "SAFECONFIG'15 (ACM)",
+      "releaseDate": "2015-10",
+      "website": "",
+      "summary": "Sophisticated security patterns and domain isolation using SELinux."
+    },
+    {
+      "name": "DockerPolicyModules: Mandatory Access Control for Docker Containers",
+      "publisher": "CNS'15 (IEEE)",
+      "releaseDate": "2015-09",
+      "website": "",
+      "summary": "Docker extension to improve containers protection using SELinux."
+    },
+    {
+      "name": "An SELinux-based Intent manager for Android",
+      "publisher": "CNS'15 (IEEE)",
+      "releaseDate": "2015-09",
+      "website": "",
+      "summary": "Best Poster Award - SELinux intent manager with fine-grained access control."
+    },
+    {
+      "name": "AppPolicyModules: Mandatory Access Control for Third-Party Apps",
+      "publisher": "ASIACCS'15 (ACM)",
+      "releaseDate": "2015-04",
+      "website": "",
+      "summary": "Android SELinux extension to protect app resources from malware."
+    }
   ]
 }
