@@ -182,5 +182,23 @@
       "language": "English",
       "fluency": "Fluent"
     }
+  ],
+  "interests": [
+    {
+      "name": "Technology"
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+        "Backpacking",
+        "Flights"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Drums"
+      ]
+    }
   ]
 }
