@@ -35,14 +35,14 @@
   "volunteer": [
     {
       "organization": "BgLUG - Bergamo Linux Users Group",
-      "position": "Board Member",
+      "position": "Volunteer",
       "website": "http://bglug.it",
       "startDate": "2014-12-01",
       "endDate": "",
       "summary": "Local Linux Users Group to spread Linux and FOSS.",
       "highlights": [
-        "Bring Linux to local primary and secondary schools",
-        "Linux Day Organizer"
+        "Board Member",
+        "Install Linux to local primary and secondary schools"
       ]
     }
   ],
