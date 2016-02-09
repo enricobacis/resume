@@ -47,6 +47,30 @@
         "Developed an algorithm to balance utility and privacy in data publishing",
         "Supervised several thesis students"
       ]
+    },
+    {
+      "company": "Politecnico di Milano",
+      "position": "Teaching Assistant",
+      "website": "http://polimi.it",
+      "startDate": "2014-10",
+      "endDate": "2015-01",
+      "summary": "Teaching assistant for the bachelor course Databases II",
+      "highlights": [
+        "Lectures on database technologies, distributed databases and triggers",
+        "Taught in english"
+      ]
+    },
+    {
+      "company": "Università degli Studi di Bergamo",
+      "position": "Teaching Assistant",
+      "website": "http://unibg.it",
+      "startDate": "2014-09",
+      "endDate": "2014-12",
+      "summary": "Teaching assistant for the bachelor course Databases II",
+      "highlights": [
+        "Lectures on database technologies, distributed databases and triggers",
+        "Taught in italian"
+      ]
     }
   ],
   "volunteer": [
