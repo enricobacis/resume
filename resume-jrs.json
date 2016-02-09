@@ -172,5 +172,15 @@
       "website": "",
       "summary": "Android SELinux extension to protect app resources from malware."
     }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
   ]
 }
