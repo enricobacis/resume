@@ -38,7 +38,6 @@
       "position": "Researcher",
       "website": "http://unibg.it",
       "startDate": "2014-05-01",
-      "endDate": "",
       "summary": "[UniBG Seclab](http://unibg-seclab.github.com) is the Computer Security group at the University of Bergamo. Their research interests include cloud, mobile and systems security, with particular focus on policies and access control.",
       "highlights": [
         "Co-principal investigator of a Google Research Award - Winter 2016",
@@ -52,8 +51,8 @@
       "company": "Politecnico di Milano",
       "position": "Teaching Assistant",
       "website": "http://polimi.it",
-      "startDate": "2014-10",
-      "endDate": "2015-01",
+      "startDate": "2014-10-01",
+      "endDate": "2015-01-31",
       "summary": "Teaching assistant for the bachelor course Databases II",
       "highlights": [
         "Lectures on databases technologies, distributed databases and triggers",
@@ -64,8 +63,8 @@
       "company": "Università degli Studi di Bergamo",
       "position": "Teaching Assistant",
       "website": "http://unibg.it",
-      "startDate": "2014-09",
-      "endDate": "2014-12",
+      "startDate": "2014-09-01",
+      "endDate": "2014-12-31",
       "summary": "Teaching assistant for the bachelor course Databases II",
       "highlights": [
         "Lectures on databases technologies, distributed databases and triggers",
@@ -79,7 +78,6 @@
       "position": "Volunteer",
       "website": "http://bglug.it",
       "startDate": "2014-12-01",
-      "endDate": "",
       "summary": "Local Linux Users Group to spread Linux and FOSS.",
       "highlights": [
         "Board Member",
@@ -165,7 +163,7 @@
   "awards": [
     {
       "title": "New graduate of the year",
-      "date": "2014",
+      "date": "2014-10-01",
       "awarder": "LUBERG - University of Bergamo Alumni Association",
       "summary": "LUBERG new graduate of the year award rewards talent, determination and commitment of graduates who stand out for a particularly brilliant academic record, the results achieved in the degree course, the originality and the scientific rigor of the thesis."
     }
