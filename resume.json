@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Enrico Bacis",
-    "label": "Computer Engineer",
+    "label": "Software Engineer",
     "picture": "",
     "email": "enrico.bacis@gmail.com",
     "phone": "(+39) 338 5336078",
     "website": "http://enricobacis.com",
-    "summary": "I am a passionate developer who loves working with enthusiastic people on projects that matter. After receiving a master's degree in Computer Engineering (magna cum laude + gpa 4.0!), I started working as a contract researcher at the University of Bergamo. My work focuses on computer security, mostly investigating the integration of security features in (mobile|cloud|database) systems. My non-work interests range widely, from programming languages to machine learning. I love to solve problems, learn new things and discourse with interesting people.",
+    "summary": "I am a passionate developer who loves working with enthusiastic people on projects that matter. After receiving a master's degree in Software Engineering (magna cum laude + gpa 4.0!), I started working as a contract researcher at the University of Bergamo. My work focuses on computer security, mostly investigating the integration of security features in (mobile|cloud|database) systems. My non-work interests range widely, from programming languages to machine learning. I love to solve problems, learn new things and discourse with interesting people.",
     "location": {
       "address": "",
       "postalCode": "24040",
@@ -98,7 +98,7 @@
   "education": [
     {
       "institution": "Università degli Studi di Bergamo",
-      "area": "Computer Engineering",
+      "area": "Software Engineering",
       "studyType": "Master of Science (MSc)",
       "startDate": "2011-12-01",
       "endDate": "2014-04-30",
@@ -107,7 +107,7 @@
         "Business Information Management",
         "Business Management",
         "Compilers and Programming Languages",
-        "Computer Engineering 3",
+        "Software Engineering 3",
         "Control Systems",
         "IT Systems",
         "Information Theory",
@@ -135,7 +135,7 @@
     },
     {
       "institution": "Università degli Studi di Bergamo",
-      "area": "Computer Engineering",
+      "area": "Software Engineering",
       "studyType": "Bachelor of Science (BSc)",
       "startDate": "2008-09-01",
       "endDate": "2011-12-16",
@@ -144,7 +144,7 @@
           "Algebra and Logic",
           "Calculus I + II",
           "Chemistry",
-          "Computer Engineering I + II",
+          "Software Engineering I + II",
           "Computer Graphics",
           "Databases II",
           "Databases and Web",
