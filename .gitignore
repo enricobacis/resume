@@ -2,3 +2,5 @@
 *.css
 *.tex
 *.pdf
+
+node_modules/
