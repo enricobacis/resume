@@ -1,2 +1,5 @@
-resume.html:
-	resume export resume.html -t slick
+SOURCE   = resume.json
+THEME    = slick
+
+resume.html: $(SOURCE)
+	resume export $@ -t $(THEME)
