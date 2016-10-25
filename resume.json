@@ -182,12 +182,14 @@
     {
       "name": "Mix&Slice: Efficient Access Revocation in the Cloud",
       "publisher": "CCS'16 (ACM)",
-      "releaseDate": "2016-10"
+      "releaseDate": "2016-10",
+      "website": "http://dl.acm.org/citation.cfm?id=2978377"
     },
     {
       "name": "Managing Data Sharing in OpenStack Swift with Over-Encryption",
       "publisher": "WISCS'16 (ACM)",
-      "releaseDate": "2016-10"
+      "releaseDate": "2016-10",
+      "website": "http://dl.acm.org/citation.cfm?id=2994549"
     },
     {
       "name": "Access Control Management for Secure Cloud Storage",
