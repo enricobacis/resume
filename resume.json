@@ -180,46 +180,55 @@
   ],
   "publications": [
     {
+      "name": "Mix&Slice: Efficient Access Revocation in the Cloud",
+      "publisher": "CCS'16 (ACM)",
+      "releaseDate": "2016-10"
+    },
+    {
+      "name": "Managing Data Sharing in OpenStack Swift with Over-Encryption",
+      "publisher": "WISCS'16 (ACM)",
+      "releaseDate": "2016-10"
+    },
+    {
+      "name": "Access Control Management for Secure Cloud Storage",
+      "publisher": "SECURECOMM'16 (EAI)",
+      "releaseDate": "2016-10"
+    },
+    {
       "name": "Extending Mandatory Access Control Policies in Android",
       "publisher": "ICISS'15",
       "releaseDate": "2015-12",
-      "website": "http://cs.unibg.it/seclab-papers/2015/ICISS/Extending_SELinux_Android.pdf",
-      "summary": "Discussion on how to widen the role of SELinux in Android."
+      "website": "http://cs.unibg.it/seclab-papers/2015/ICISS/Extending_SELinux_Android.pdf"
     },
     {
       "name": "SeSQLite: Security Enhanced SQLite",
       "publisher": "ACSAC'15",
       "releaseDate": "2015-12",
-      "website": "http://cs.unibg.it/seclab-papers/2015/ACSAC/SeSQLite.pdf",
-      "summary": "SQLite extension to integrated fine-grained SELinux controls in SQLite."
+      "website": "http://cs.unibg.it/seclab-papers/2015/ACSAC/SeSQLite.pdf"
     },
     {
       "name": "Policy Specialization to Support Domain Isolation",
       "publisher": "SAFECONFIG'15 (ACM)",
       "releaseDate": "2015-10",
-      "website": "http://cs.unibg.it/seclab-papers/2015/SAFECONFIG/Policy_Specialization.pdf",
-      "summary": "Sophisticated security patterns and domain isolation using SELinux."
+      "website": "http://cs.unibg.it/seclab-papers/2015/SAFECONFIG/Policy_Specialization.pdf"
     },
     {
       "name": "DockerPolicyModules: Mandatory Access Control for Docker Containers",
       "publisher": "CNS'15 (IEEE)",
       "releaseDate": "2015-09",
-      "website": "http://cs.unibg.it/seclab-papers/2015/CNS/Docker.pdf",
-      "summary": "Docker extension to improve containers protection using SELinux."
+      "website": "http://cs.unibg.it/seclab-papers/2015/CNS/Docker.pdf"
     },
     {
       "name": "An SELinux-based Intent manager for Android",
       "publisher": "CNS'15 (IEEE)",
       "releaseDate": "2015-09",
-      "website": "http://cs.unibg.it/seclab-papers/2015/CNS/Intent_Firewall.pdf",
-      "summary": "Best Poster Award - SELinux intent manager with fine-grained access control."
+      "website": "http://cs.unibg.it/seclab-papers/2015/CNS/Intent_Firewall.pdf"
     },
     {
       "name": "AppPolicyModules: Mandatory Access Control for Third-Party Apps",
       "publisher": "ASIACCS'15 (ACM)",
       "releaseDate": "2015-04",
-      "website": "http://cs.unibg.it/seclab-papers/2015/ASIACCS/AppPolicyModules.pdf",
-      "summary": "Android SELinux extension to protect app resources from malware."
+      "website": "http://cs.unibg.it/seclab-papers/2015/ASIACCS/AppPolicyModules.pdf"
     }
   ],
   "skills": [
