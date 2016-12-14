@@ -1,4 +1,4 @@
-.PHONY   : all clean fresh
+.PHONY   : all clean fresh test
 
 SOURCE   = resume.json
 THEME    = slick
@@ -13,3 +13,6 @@ clean:
 	@ find . -name 'resume*' -and -not -name '*.json' -exec rm '{}' \+
 
 fresh: | clean all
+
+test: $(SOURCE)
+	resume test $@
