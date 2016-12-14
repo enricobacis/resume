@@ -26,9 +26,20 @@ analytics_soup = BeautifulSoup('''
 
 </script>''', 'lxml')
 
+mail = 'enrico.bacis@gmail.com'
+mailto_soup = BeautifulSoup('<a href="mailto:{0}">{0}</a>'.format(mail), 'lxml')
+
 # remove phone
 phone = soup.find('div', {'class': 'phone'})
 if phone: phone.decompose()
+
+# remove all email obfuscation scripts
+for script in soup.findAll('script'):
+    script.decompose()
+
+# unprotect email
+for email in soup.findAll('div', {'class': 'email'}):
+    email.a.replace_with(mailto_soup.a)
 
 # add google analytics script
 soup.head.insert(len(soup.head.contents), analytics_soup.script)
