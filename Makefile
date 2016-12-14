@@ -6,7 +6,7 @@ THEME    = slick
 all: resume.html
 
 resume.html: $(SOURCE)
-	resume export $@ -t $(THEME)
+	resume export $@ --theme $(THEME)
 	python makehtml.py $@ $@
 
 clean:
