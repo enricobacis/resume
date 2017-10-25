@@ -44,6 +44,17 @@
   },
   "work": [
     {
+      "company": "Google - Munich",
+      "position": "PhD Software Engineering Intern",
+      "startDate": "2017-07-01",
+      "endDate": "2015-09-29",
+      "summary": "Advanced the state of WebAssembly memory accesses bounds checks",
+      "highlights": [
+        "Improved correctness, security, and performance of V8 by reducing code patching",
+        "Enhanced the performance of the Octane/zlib benchmark by 5%"
+      ]
+    },
+    {
       "company": "Università degli Studi di Bergamo",
       "position": "Researcher",
       "website": "http://www.unibg.it",
