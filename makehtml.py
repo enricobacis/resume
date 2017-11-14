@@ -41,6 +41,9 @@ for script in soup.findAll('script'):
 for email in soup.findAll('div', {'class': 'email'}):
     email.a.replace_with(mailto_soup.a)
 
+for link in soup.findAll('link'):
+    link['href'] = link['href'].replace('bootswatch.com/lumen/', 'bootswatch.com/3/lumen/')
+
 # add google analytics script
 soup.head.insert(len(soup.head.contents), analytics_soup.script)
 
