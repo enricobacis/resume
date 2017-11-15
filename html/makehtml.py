@@ -43,7 +43,7 @@ for email in soup.findAll('div', {'class': 'email'}):
     email.a.replace_with(mailto_soup.a)
 
 for link in soup.findAll('link'):
-    link['href'] = link['href'].replace('bootswatch.com/lumen/', 'bootswatch.com/3/lumen/')
+    link['href'] = re.sub(r'(https?:)?//bootswatch.com/(\d/)?lumen/', '/static/css/', link['href'])
     link['href'] = re.sub(r'https?://', '//', link['href'])
 
 # add google analytics script
