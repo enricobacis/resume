@@ -3,6 +3,7 @@
 from argparse import ArgumentParser
 from bs4 import BeautifulSoup
 from sys import argv
+import re
 
 parser = ArgumentParser(description="fix the html resume")
 parser.add_argument("INPUT", help="input file")
@@ -43,6 +44,7 @@ for email in soup.findAll('div', {'class': 'email'}):
 
 for link in soup.findAll('link'):
     link['href'] = link['href'].replace('bootswatch.com/lumen/', 'bootswatch.com/3/lumen/')
+    link['href'] = re.sub(r'https?://', '//', link['href'])
 
 # add google analytics script
 soup.head.insert(len(soup.head.contents), analytics_soup.script)
