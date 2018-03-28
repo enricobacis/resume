@@ -11,24 +11,10 @@ parser.add_argument("OUTPUT", help="output file")
 args = parser.parse_args()
 
 with open(args.INPUT) as fp:
-    soup = BeautifulSoup(fp.read(), 'lxml')
-
-# make google analytics soup
-analytics_soup = BeautifulSoup('''
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73621100-1', 'auto');
-  ga('set', 'anonymizeIp', true);
-  ga('send', 'pageview');
-
-</script>''', 'lxml')
+    soup = BeautifulSoup(fp.read(), 'html.parser')
 
 mail = 'enrico.bacis@gmail.com'
-mailto_soup = BeautifulSoup('<a href="mailto:{0}">{0}</a>'.format(mail), 'lxml')
+mailto_soup = BeautifulSoup('<a href="mailto:{0}">{0}</a>'.format(mail), 'html.parser')
 
 # remove phone
 phone = soup.find('div', {'class': 'phone'})
@@ -47,9 +33,27 @@ for link in soup.findAll('link'):
     link['href'] = re.sub(r'https?://', '//', link['href'])
 
 # add google analytics script
-soup.head.insert(len(soup.head.contents), analytics_soup.script)
+ANALYTICS_PLACEHOLDER = 'ANALYTICS_PLACEHOLDER'
+ANALYTICS_CODE = '''
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73621100-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-73621100-1', { 'anonymize_ip': true });
+</script>
+'''
+
+soup.head.insert(0, soup.new_string(ANALYTICS_PLACEHOLDER))
+
+# generate html
+html = soup.prettify(soup.original_encoding)
+
+# substitute placeholder
+html = html.replace(ANALYTICS_PLACEHOLDER, ANALYTICS_CODE)
 
 # write back to file
-html = soup.prettify(soup.original_encoding)
 with open(args.OUTPUT, 'wb') as fp:
     fp.write(html)
