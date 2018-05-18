@@ -46,6 +46,7 @@
     {
       "company": "Google - Munich",
       "position": "PhD Software Engineering Intern",
+      "website": "https://developers.google.com/v8",
       "startDate": "2017-07-01",
       "endDate": "2017-09-29",
       "summary": "Advanced the state of WebAssembly memory accesses bounds checks",
