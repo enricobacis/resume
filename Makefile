@@ -7,7 +7,7 @@ HTML     = html/index.html
 all: $(HTML)
 
 $(HTML): $(SOURCE)
-	resume export $@ --theme $(THEME)
+	resume export $@ --theme $(THEME) --format html
 	html/makehtml.py $@ $@
 
 clean:
