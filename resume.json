@@ -23,7 +23,7 @@
       {
         "network": "Stack Overflow",
         "username": "enricobacis",
-        "url": "http://stackoverflow.com/users/1003123"
+        "url": "https://stackoverflow.com/users/1003123"
       },
       {
         "network": "Twitter",
@@ -57,7 +57,7 @@
     {
       "company": "Università degli Studi di Bergamo",
       "position": "Researcher",
-      "website": "http://www.unibg.it",
+      "website": "https://seclab.unibg.it",
       "startDate": "2014-05-01",
       "summary": "UniBG Seclab is the Computer Security group at the University of Bergamo. Their research interests include cloud, mobile and systems security, with particular focus on policies and access control.",
       "highlights": [
@@ -71,7 +71,7 @@
     {
       "company": "Politecnico di Milano",
       "position": "Teaching Assistant",
-      "website": "http://polimi.it",
+      "website": "https://polimi.it",
       "startDate": "2014-10-01",
       "endDate": "2015-01-31",
       "summary": "Teaching assistant for the master course Databases II",
@@ -83,7 +83,7 @@
     {
       "company": "Università degli Studi di Bergamo",
       "position": "Teaching Assistant",
-      "website": "http://www.unibg.it",
+      "website": "https://www.unibg.it",
       "startDate": "2014-09-01",
       "endDate": "2014-12-31",
       "summary": "Teaching assistant for the bachelor course Databases II",
@@ -97,7 +97,7 @@
     {
       "organization": "BgLUG - Bergamo Linux Users Group",
       "position": "Volunteer",
-      "website": "http://bglug.it",
+      "website": "https://bglug.it",
       "startDate": "2014-12-01",
       "summary": "Local Linux Users Group to spread Linux and FOSS.",
       "highlights": [
@@ -200,13 +200,13 @@
       "name": "Mix&Slice: Efficient Access Revocation in the Cloud",
       "publisher": "CCS'16 (ACM)",
       "releaseDate": "2016-10",
-      "website": "http://dl.acm.org/citation.cfm?id=2978377"
+      "website": "https://dl.acm.org/citation.cfm?id=2978377"
     },
     {
       "name": "Managing Data Sharing in OpenStack Swift with Over-Encryption",
       "publisher": "WISCS'16 (ACM)",
       "releaseDate": "2016-10",
-      "website": "http://dl.acm.org/citation.cfm?id=2994549"
+      "website": "https://dl.acm.org/citation.cfm?id=2994549"
     },
     {
       "name": "Access Control Management for Secure Cloud Storage",
@@ -217,37 +217,37 @@
       "name": "Extending Mandatory Access Control Policies in Android",
       "publisher": "ICISS'15",
       "releaseDate": "2015-12",
-      "website": "http://cs.unibg.it/seclab-papers/2015/ICISS/Extending_SELinux_Android.pdf"
+      "website": "https://cs.unibg.it/seclab-papers/2015/ICISS/Extending_SELinux_Android.pdf"
     },
     {
       "name": "SeSQLite: Security Enhanced SQLite",
       "publisher": "ACSAC'15",
       "releaseDate": "2015-12",
-      "website": "http://cs.unibg.it/seclab-papers/2015/ACSAC/SeSQLite.pdf"
+      "website": "https://cs.unibg.it/seclab-papers/2015/ACSAC/SeSQLite.pdf"
     },
     {
       "name": "Policy Specialization to Support Domain Isolation",
       "publisher": "SAFECONFIG'15 (ACM)",
       "releaseDate": "2015-10",
-      "website": "http://cs.unibg.it/seclab-papers/2015/SAFECONFIG/Policy_Specialization.pdf"
+      "website": "https://cs.unibg.it/seclab-papers/2015/SAFECONFIG/Policy_Specialization.pdf"
     },
     {
       "name": "DockerPolicyModules: Mandatory Access Control for Docker Containers",
       "publisher": "CNS'15 (IEEE)",
       "releaseDate": "2015-09",
-      "website": "http://cs.unibg.it/seclab-papers/2015/CNS/Docker.pdf"
+      "website": "https://cs.unibg.it/seclab-papers/2015/CNS/Docker.pdf"
     },
     {
       "name": "An SELinux-based Intent manager for Android",
       "publisher": "CNS'15 (IEEE)",
       "releaseDate": "2015-09",
-      "website": "http://cs.unibg.it/seclab-papers/2015/CNS/Intent_Firewall.pdf"
+      "website": "https://cs.unibg.it/seclab-papers/2015/CNS/Intent_Firewall.pdf"
     },
     {
       "name": "AppPolicyModules: Mandatory Access Control for Third-Party Apps",
       "publisher": "ASIACCS'15 (ACM)",
       "releaseDate": "2015-04",
-      "website": "http://cs.unibg.it/seclab-papers/2015/ASIACCS/AppPolicyModules.pdf"
+      "website": "https://cs.unibg.it/seclab-papers/2015/ASIACCS/AppPolicyModules.pdf"
     }
   ],
   "skills": [
