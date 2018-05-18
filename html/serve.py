@@ -9,7 +9,7 @@ HOST = '127.0.0.1'
 PORT = 8000
 PAGE = 'index.html'
 
-Timer(1.0, open_new, args=['%s:%d/%s' % (HOST, PORT, PAGE)]).start()
+Timer(1.0, open_new, args=['http://%s:%d/%s' % (HOST, PORT, PAGE)]).start()
 
 server = TCPServer((HOST, PORT), SimpleHTTPRequestHandler)
 server.allow_reuse_address = True
