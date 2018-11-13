@@ -6,7 +6,7 @@
     "email": "enrico.bacis@gmail.com",
     "phone": "(+39) 338 5336078",
     "website": "https://enricobacis.com",
-    "summary": "I am a passionate developer who loves working with enthusiastic people on projects that matter. After receiving a master's degree in Software Engineering, I started working as a contract researcher at the University of Bergamo. My work focuses on computer security, mostly investigating the integration of security features in (mobile|cloud|database) systems. My non-work interests range widely, from programming languages to machine learning. I love to solve problems, learn new things and discuss with interesting people.",
+    "summary": "I am a passionate developer who loves working with enthusiastic people on projects that matter. After receiving a master's degree in Software Engineering, I started working as a researcher at the University of Bergamo. My work focuses on computer security, mostly investigating the integration of security features in (mobile|cloud|database) systems. My non-work interests range widely, from programming languages to CTFs to playing drums. I love to solve problems, learn new things and discuss with interesting people.",
     "location": {
       "address": "",
       "postalCode": "24040",
@@ -44,6 +44,17 @@
   },
   "work": [
     {
+      "company": "Google - London",
+      "position": "PhD Software Engineering Intern",
+      "website": "https://www.android.com/play-protect",
+      "startDate": "2018-07-02",
+      "endDate": "2018-10-19",
+      "summary": "Advanced the state of automatic Android malware discovery",
+      "highlights": [
+        "Developed an engine to improve Android dynamic binary malware analysis."
+      ]
+    },
+    {
       "company": "Google - Munich",
       "position": "PhD Software Engineering Intern",
       "website": "https://developers.google.com/v8",
@@ -51,8 +62,7 @@
       "endDate": "2017-09-29",
       "summary": "Advanced the state of WebAssembly memory accesses bounds checks",
       "highlights": [
-        "Improved correctness, security, and performance of V8 by reducing code patching",
-        "Enhanced the performance of the Octane/zlib benchmark by 5%"
+        "Improved correctness, security, and performance of V8 by reducing code patching"
       ]
     },
     {
@@ -111,7 +121,7 @@
     {
       "institution": "Università degli Studi di Bergamo",
       "area": "Software Engineering",
-      "studyType": "Ph.D.",
+      "studyType": "Ph.D. program in Engineering and Applied Sciences",
       "startDate": "2016-10-01"
     },
     {
